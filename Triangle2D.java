@@ -77,9 +77,9 @@ public class Triangle2D {
                 && p.distance(p2) < p2.distance(p1) && p.distance(p2) < p2.distance(p3)
                 && p.distance(p3) < p3.distance(p1) && p.distance(p3) < p3.distance(p2);
     }
-    public boolean contains(Triangle2D t)
+    public boolean contains(Triangle2D tr)
     {
-        return this.contains(t.p1) && this.contains(t.p2) && this.contains(t.p3);
+        return this.contains(tr.p1) && this.contains(tr.p2) && this.contains(tr.p3);
     }
 
 }
